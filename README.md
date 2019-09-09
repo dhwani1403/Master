@@ -10,4 +10,7 @@ My name is **Dhwani Kumrawat** and I am current student in **Data Analytics Cert
 
 <img src="https://github.com/dhwani1403/Master/blob/master/IMG-20190909-WA0000.jpg" width="340" height="480">
 
-# License information for the repository
+# License information for the Repository
+Copyright (C) 2007 **Free Software Foundation, Inc.** [**https://fsf.org/**](https://fsf.org/)
+
+Please click here for the complete [**License information**](https://github.com/dhwani1403/Master/blob/master/LICENSE) for the repository.
