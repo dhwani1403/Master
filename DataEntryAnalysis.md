@@ -1,4 +1,4 @@
-## List some of the problems in the given file
+## List of the some problems in the given file
 
 _**Pond 2010**_
 
