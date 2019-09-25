@@ -1,21 +1,23 @@
 _**Pond 2010**_
 
-* Parameters for Temperature and Depth is not mentioned
-* some data is missing for depth Z, Temp, density, colony Diamete
-* Time of sample taken is not given as their density changes from day to night
-* Row 18 & 19 (Pond 2010)- F0r the same date , depth, temp Density for cuni is less even for almost same Colony diameter (3.23 & 3.28), may sample taken time is different but it is not mention in the given data
-* Temp data is missing for depth 50 for Date 6/18/2010 (row 31)
+* What parameter is **Z** in File # 1.
+* If we consider Z as Depth then Measurement unit for **Depth** and **Temperature** Column is not specified.
+* Some data is missing for depth Z, Temp, density, colony Diameter column..
+* At what time of the day sample has been taken, is not mention since it is important to mention the time as species density changes from day to night.
+* Row 18 & 19 (Pond 2010)- For the same date, depth, temp Density for cuni is less even for almost same Colony diameter (3.23 & 3.28), may be time for sample taking is different but it is not mentioned in the given data.
+
 
 
 **_Zoop-temp-main_**
 
-* Row 29- for depth 50 meter temp is quite higher in comparision to row 30 for same same date and depth
-* Row 32 & 34 are conflicting as there is difference between desity of species per liter for the same depth, colony diameter and temperature
+* Row 29- for depth 50 meters temperature is quite higher in comparison to row 30 for same date and depth
+* Row 32 & 34 are conflicting as there is the difference between the density of species per liter for the same depth, colony diameter and temperature may be sample taking time is different for both rows.
+
 
 
 **_Zoop-temp_**
 
-* Data can not be negative , it must be either positive or 0 (row 20)
+* Data can not be negative , it must be either positive or 0 (row 20 & 35)
 
 
 
@@ -24,7 +26,7 @@ _**Pond 2010**_
 
 
 
-| Date | Time | Depth in meters | Density #/L | ColonySize in meteres | Species name | Temp in Fahrehneit |
+| Date | Time (am/pm) | Depth in meters | Density #/L | ColonySize in meteres | Species name | Temp in Fahrehneit |
 |------|------|-----------------|----------   |-----------------      |------------  |------------------- |
 |      |      |                 |             |                       |              |                    |
 |      |      |                 |             |                       |              |                    |
