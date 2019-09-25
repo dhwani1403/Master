@@ -22,12 +22,12 @@ _**Pond 2010**_
 
 
 
+### Below table can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
 
 
 
-
-| Date | Time (am/pm) | Depth in meters | Density #/L | ColonySize in meteres | Species name | Temp in Fahrehneit |
-|------|------|-----------------|----------   |-----------------      |------------  |------------------- |
-|      |      |                 |             |                       |              |                    |
-|      |      |                 |             |                       |              |                    |
-|      |      |                 |             |                       |              |                    |
+| Date | Time (AM/PM) | Depth (Meters) | Density (#/L) | ColonySize (Meters) | Species Name | Temperature (Fahrehneit) |
+|------|--------------|-----------------|--------------|---------------------|--------------|--------------------------|
+|      |              |                 |              |                     |              |                          |
+|      |              |                 |              |                     |              |                          |
+|      |              |                 |              |                     |              |                          |
