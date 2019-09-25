@@ -1,3 +1,5 @@
+## List some of the problems in the given file
+
 _**Pond 2010**_
 
 * What parameter is **Z** in File # 1.
@@ -31,3 +33,9 @@ _**Pond 2010**_
 |      |              |                 |              |                     |              |                          |
 |      |              |                 |              |                     |              |                          |
 |      |              |                 |              |                     |              |                          |
+
+
+#### In the given 3 files there is no data for Time- when sample of water has been taken, so time must be mentioned as density for species can be vary from day time to night time.
+#### Measurement unit must be specified for Time, Depth, Density, Colony Size and Temperatue column.
+#### Data for each column can not be blank, Because missing data can lead to incorrect decision.
+#### Data can not be negative except Temperature data.
