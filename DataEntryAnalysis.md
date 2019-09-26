@@ -40,9 +40,9 @@ _**Pond 2010**_
 * Merge three tables in to one to avoid redundancy and it will be easy to handle 1 table instead of 3 tables. Or in future if researchers want to study any othe species also so they do not have to change the table structure, they just have to add the data in the rows.
 
 
-## Below table can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
+##### Below table can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
 
-#### Table for **All locations**
+## Table for **All locations**
 
 | Date (MM/DD/YYYY) |Location| Time (AM/PM) | Depth (Meters) | Density (#/L) | ColonySize (Meters) | Species Name | Chla |Temperature (Fahrehneit) |
 |------|--------------|---|-----------------|--------------|---------------------|--------------|--------------------------|---|
