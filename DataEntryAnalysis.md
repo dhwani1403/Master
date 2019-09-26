@@ -2,38 +2,47 @@
 
 _**Pond 2010**_
 
-* What parameter is **Z** in File # 1.
+* Date Formate is unclear, is it MM:DD:YYYY or DD:MM:YYYY
+* What parameter is **Z** in File # 1, we can interpret the column significance.
 * If we consider Z as Depth then Measurement unit for **Depth** and **Temperature** Column is not specified.
 * Some data is missing for depth Z, Temp, density, colony Diameter column.
 * At what time of the day sample has been taken, is not mention since it is important to mention the time as species density changes from day to night.
-* Row 18 & 19 - For the same date, depth, temp Density for cuni is less even for almost same Colony diameter (3.23 & 3.28), may be time for sample taking is different but it is not mentioned in the given data.
 
 
 
 **_Zoop-temp-main_**
 
-* Row 29- for depth 50 meters temperature is quite higher in comparison to row 30 for same date and depth.
-* Row 32 & 34 are conflicting as there is the difference between the density of species per liter for the same depth, colony diameter and temperature may be sample taking time is different for both rows.
-
+* Some Temperature data is missing.
+* Time of sample taking is not mentioned.
+* What is Chla, Column name should be easy to interpret.
 
 
 **_Zoop-temp_**
 
 * Data can not be negative , it must be either positive or 0 (row 20 & 35)
+* Time of sapmle taking is not mentioned.
+* In place of two or three tables we can create ! table which can contain Location Column so handling data will be easy
 
 
-### Below table can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
+### Below tables can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
 
 
+#### Solutions to above mentioned problems
 
-| Date | Time (AM/PM) | Depth (Meters) | Density (#/L) | ColonySize (Meters) | Species Name | Temperature (Fahrehneit) |
-|------|--------------|-----------------|--------------|---------------------|--------------|--------------------------|
-|      |              |                 |              |                     |              |                          |
-|      |              |                 |              |                     |              |                          |
-|      |              |                 |              |                     |              |                          |
+* Specify Date formate for easy understanding.
+* Add Time column so that we can identify the day and night parameters.
+* Specify the measurment unit for DEpth, Density, Colony Size, Temperature.
+* Merge two tables of Zoop to decrease the redundancy.
+* Avoid negative values except Temperature readings or we can add contraints that no negative values will be accepted for Depth, Density & Colony size.
+* Add Location column to mention that sample has been taken from Pond or Zoop (Station B is in a shallower southern arm of the lake).
+* Chla value can be **N.A.** for Pond location.
+
+#### Table #1 for **All locations**
+
+| Date (MM/DD/YYYY) |Location| Time (AM/PM) | Depth (Meters) | Density (#/L) | ColonySize (Meters) | Species Name | Chla |Temperature (Fahrehneit) |
+|------|--------------|---|-----------------|--------------|---------------------|--------------|--------------------------|---|
+|      |              |---|                 |              |                     |              |                          |    |
+|      |              |---|                 |              |                     |              |                          |  |
+|      |              |---|                 |              |                     |              |                          |  |
 
 
-* **In the given 3 files there is no data for Time- when sample of water has been taken, so time must be mentioned as plankton change their distributions from day to night.**
-* **Measurement unit must be specified for Time, Depth, Density, Colony Size and Temperatue column.**
-* **Data for each column can not be blank, Because missing data can lead to incorrect decision.**
-* **Data can not be negative except Temperature data.**
