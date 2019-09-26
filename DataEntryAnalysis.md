@@ -1,3 +1,6 @@
+## Introduction of Assignment
+Three data files are given which contains the data for Plankton Organism and its two species. We need to organize the data in more efficient way and create the Data table. This table can be used as a reference for future studies by researchers.
+
 ## List of the some problems in the given file
 
 _**Pond 2010**_
@@ -24,7 +27,6 @@ _**Pond 2010**_
 * In place of two or three tables we can create ! table which can contain Location Column so handling data will be easy
 
 
-### Below tables can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
 
 
 #### Solutions to above mentioned problems
@@ -32,17 +34,22 @@ _**Pond 2010**_
 * Specify Date formate for easy understanding.
 * Add Time column so that we can identify the day and night parameters.
 * Specify the measurment unit for DEpth, Density, Colony Size, Temperature.
-* Merge two tables of Zoop to decrease the redundancy.
 * Avoid negative values except Temperature readings or we can add contraints that no negative values will be accepted for Depth, Density & Colony size.
 * Add Location column to mention that sample has been taken from Pond or Zoop (Station B is in a shallower southern arm of the lake).
 * Chla value can be **N.A.** for Pond location.
+* Merge three tables in to one to avoid redundancy and it will be easy to handle 1 table instead of 3 tables. Or in future if researchers want to study any othe species also so they do not have to change the table structure, they just have to add the data in the rows.
 
-#### Table #1 for **All locations**
+
+#### Below table can give the idea that what type of data a resercher should collect and how to organize that Data for Planktons species so that it will be easy to make any decision from the data. 
+
+#### Table for **All locations**
 
 | Date (MM/DD/YYYY) |Location| Time (AM/PM) | Depth (Meters) | Density (#/L) | ColonySize (Meters) | Species Name | Chla |Temperature (Fahrehneit) |
 |------|--------------|---|-----------------|--------------|---------------------|--------------|--------------------------|---|
-|      |              |---|                 |              |                     |              |                          |    |
-|      |              |---|                 |              |                     |              |                          |  |
-|      |              |---|                 |              |                     |              |                          |  |
+|  6/18/2018    | Pond | 1:00 PM  |    0.5      |    40          |    3.22      |    Cuni          |    N.A.  |  15.5  |
+|  6/18/2018    | Pond | 2:00 AM  |    5      |    80         |    2.00      |    Cuni          |    N.A.  |  14  |
+| 6/18/2018     | Station B  | 1:00 PM  |    0.5   |         87     |    2.44   |     Chippo         |       3.2  | 18.8 |
+| 6/18/2018     | Station B  | 2:00 AM  |    5   |        67    |    2.2   |     Chippo         |       2.8  |16  |
+
 
 
