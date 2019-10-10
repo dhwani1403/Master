@@ -26,7 +26,7 @@ From this scatter plot we can make some comments like Intensity is increasing as
 ---
 #### 1b)
 
-**_Scatter Plot for Intensity and DateTime**
+**_Scatter Plot for Intensity and DateTime_**
 
 From the Rplot we can say that Intensity is consistent for few months (June 2016-Oct 2016). There are some outliers, may be they are bad readings.
 
