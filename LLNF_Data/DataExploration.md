@@ -12,6 +12,8 @@ This dataset contains some important parameters for phenology like Date & Time, 
 From this scatter plot we can make some comments like Intensity is increasing as the temperature increases. There are some data missing in the excel file for Intensity and Temperature for some dates.
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot_1a.jpeg)
+
+_Code for above Plot_
 ```
 > library(tidyverse)
 > library(ggplot2)
@@ -32,6 +34,8 @@ From the Rplot we can say that Intensity is consistent for few months (June 2016
 
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot_1b_1.jpeg)
+
+_Code for above Plot_
 ```
 > LLNF$DateTime <- as.Date(LLNF$DateTime,format("%m/%d/%y"))
 > ggplot(LLNF,aes(x=DateTime,y=Intensity))+
@@ -45,6 +49,8 @@ From the Rplot we can say that Intensity is consistent for few months (June 2016
 From the below Scatter plot we can suggest that through the DateTime , Intensity is consistent and Intensity has large value when temperature was above 20°C
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot_2_1.jpeg)
+
+_Code for above Plot_
 ```
 > ggplot(LLNF,aes(x=DateTime,y=Intensity,color=Temperature))+
 + geom_point()
@@ -59,6 +65,8 @@ Trend line in below scatter plot is showing that intensity is proportional to Te
 **_Note_**: This plot can have negative values for Temperature but as excel sheet does not contain any negative values for Temperature so thus plot.
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot_3.jpeg)
+
+_Code for above Plot_
 ```
 > ggplot(LLNF,aes(x=Temperature,y=Intensity))+
 + geom_point()+
@@ -73,6 +81,8 @@ From the below plot we can observe two different varibales in two different wind
 
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot_4_1.jpeg)
+
+_Code for above Plot_
 ```
 > LLNF1<-gather(LLNF,key="measure",value="value",c(Intensity,Temperature))
 > ggplot(LLNF1,aes(x=DateTime,y=value))+
@@ -88,6 +98,8 @@ From the below plot we can observe two different varibales in two different wind
 Temperature is consistent through the months (June 2016-Oct 2016), I am not sure about the values of Y axis as they are coming like 200, 400..
 
 ![](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/Rplot.jpeg)
+
+_Code for above Plot_
 ```
 > ggplot(LLNF,aes(x=DateTime,y=Temperature,fill="grp"))+
 + geom_bar(stat="identity",color="blue",width=0.5)
