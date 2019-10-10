@@ -3,7 +3,7 @@ My name is **Dhwani Kumrawat** and I am current student of **Data Analytics Cert
 
 # Individual Assignments
 * [Data Entry Analysis](https://github.com/dhwani1403/Master/blob/master/DataEntryAnalysis.md) 
-* [Data Exploration](https://github.com/dhwani1403/LLNF_Data/blob/master/DataExploration.md)
+* [Data Exploration](https://github.com/dhwani1403/Master/blob/master/LLNF_Data/DataExploration.md)
 
 
 # A Picture of Dhwani Kumrawat
